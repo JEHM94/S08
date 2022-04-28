@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    checkableBehaivor Cantidad de items selecionables a la vez-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_mail"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/email" />
+        <item
+            android:id="@+id/menu_alert"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="@string/alerts" />
+        <item
+            android:id="@+id/menu_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/information" />
+    </group>
+
+    <item android:title="@string/otras_opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_option1"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="@string/opcion_1" />
+            <item
+                android:id="@+id/menu_option2"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="@string/opcion_2" />
+        </menu>
+    </item>
+
+</menu>

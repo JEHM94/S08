@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Seccion_08_navigation_drawer</string>
+    <string name="phoenix_menu">Phoenix Menu</string>
+    <string name="email">Email</string>
+    <string name="alerts">Alerts</string>
+    <string name="information">Information</string>
+    <string name="otras_opciones">Otras Opciones</string>
+    <string name="opcion_1">Opcion 1</string>
+    <string name="opcion_2">Opcion 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
